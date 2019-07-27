@@ -1,0 +1,81 @@
+﻿@model IEnumerable<ConsumAPiProduct.Models.ProductModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h2 style="text-align:center">List Products</h2>
+
+<div class="container">
+    <br />
+    <table id="ProductTable" class="display nowrap" style="width:100%">
+        <thead>
+            <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Photo</th>
+                <th>Last Update</th>
+                <th>Options</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+                    <td>
+
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        <img src="@item.Photo" width="60" alt="@item.ProductName" />
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastUpdated)
+                    </td>
+                    <td>
+                        @Html.ActionLink("View", "ViewProduct", "Product", new { Id = item.ProductId })
+                        @Html.ActionLink("Edit", "EditProduct", "Product", new { Id = item.ProductId })
+                        @Html.ActionLink("Delete", "DeleteProduct", "Product", new { Id = item.ProductId })
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+               
+
+            </tr>
+        </tfoot>
+    </table>
+    <h4 style="text-align:center">
+        @Html.ActionLink("Create New Product", "CreateProduct", "Product", new { })
+    </h4>
+</div>
+<script>
+    $(document).ready(function () {
+        debugger;
+        $('#ProductTable').DataTable(
+      
+            {               
+                dom: 'Bfrtip',
+                buttons: [
+                   
+                    'excelHtml5'                          
+                ],
+                aaSorting: [[0, 'desc']]
+
+            });
+    });
+</script>
+
+

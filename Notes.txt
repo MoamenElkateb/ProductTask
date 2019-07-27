@@ -1,0 +1,29 @@
+Tools Used
+	   Visula Studio 2017
+           SQL Server 2016
+           
+ FrameWork Used
+
+              asp.Net API Core
+              asp.Net MVC Core
+              jquery
+              Bootstrap
+
+Notes  
+       *In This Attached Folder Two Projects Seperated 
+        one of them is ApI Services with name "product catalog task"
+        and the second is Consuming API using MVC Core with Name"Consuming Product API"
+        
+        * there are two Script For DataBase (2012,2016)
+           choose any of them 
+        
+        * You shoud Run  Api Project then run  Consuming project 
+
+For any question please Call me 
+                      01551077434  -01282132176
+or send to me on
+  moamenmiustafa132017@gmail.com
+                         
+
+        
+             

@@ -1,0 +1,14 @@
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\bin\Debug\netcoreapp2.1\ProductCatalogTask.deps.json
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\bin\Debug\netcoreapp2.1\ProductCatalogTask.runtimeconfig.json
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\bin\Debug\netcoreapp2.1\ProductCatalogTask.runtimeconfig.dev.json
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\bin\Debug\netcoreapp2.1\ProductCatalogTask.dll
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\bin\Debug\netcoreapp2.1\ProductCatalogTask.pdb
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\obj\Debug\netcoreapp2.1\ProductCatalogTask.csprojAssemblyReference.cache
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\obj\Debug\netcoreapp2.1\ProductCatalogTask.csproj.CoreCompileInputs.cache
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\obj\Debug\netcoreapp2.1\ProductCatalogTask.RazorAssemblyInfo.cache
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\obj\Debug\netcoreapp2.1\ProductCatalogTask.RazorAssemblyInfo.cs
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\obj\Debug\netcoreapp2.1\ProductCatalogTask.AssemblyInfoInputs.cache
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\obj\Debug\netcoreapp2.1\ProductCatalogTask.AssemblyInfo.cs
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\obj\Debug\netcoreapp2.1\ProductCatalogTask.RazorTargetAssemblyInfo.cache
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\obj\Debug\netcoreapp2.1\ProductCatalogTask.dll
+C:\Users\Moamen\source\repos\ProductCatalogTask\ProductCatalogTask\obj\Debug\netcoreapp2.1\ProductCatalogTask.pdb

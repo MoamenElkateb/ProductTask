@@ -1,0 +1,35 @@
+﻿@model ConsumAPiProduct.Models.ProductModel
+
+@{
+    ViewData["Title"] = "ViewProduct";
+}
+<style>
+    /*.row {
+         height:10%;
+    }*/
+</style>
+<h2 style="text-align:center">View Product</h2>
+<br />
+<br />
+<div class="card" style="width: 50rem;  white-space: nowrap; margin:auto">
+    <img class="card-img-top" src="@Model.Photo" alt="Card image cap">
+    <div class="card-body">
+        @*<h5 class="card-title" style="font-size:large;text-align:center">@Model.ProductName</h5>*@
+        <label class="col-lg-7 control-label text-bold ">Product Name</label>
+
+        <label class="col-lg-4 control-label card-text">@Model.ProductName</label>
+        <label class="col-lg-7 control-label text-bold ">Product ID</label>
+
+        <label class="col-lg-4 control-label card-text">@Model.ProductId</label>
+
+        <label class="col-lg-7 control-label text-bold ">Product Price</label>
+
+        <label class="col-lg-4 control-label card-text">@Model.Price</label>
+        <label class="col-lg-7 control-label text-bold ">Last Updated</label>
+        <label class=" col-lg-4 control-label">@Model.LastUpdated</label>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
